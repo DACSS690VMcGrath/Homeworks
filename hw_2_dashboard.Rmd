@@ -1,0 +1,49 @@
+---
+title: "My HW2 for DACS 690V Spring"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+## Intro {.sidebar}
+
+Author: Patrick McGrath<br>DACSS690V Spring 2026
+
+### References
+<div id="refs"></div>
+
+## Row {data-height="500"}
+
+### **THREE-GEAR CARS ARE DOMINANT** 
+
+```{r}
+## for del1Draft.rds
+link1="C:/Users/patri/OneDrive/Desktop/DACSS/DACSS690V/Week_2_HW/gear_plot.rds"
+readRDS(link1)
+```
+
+### **FEW CARS have SIX or more CARBURATORS**
+
+```{r}
+## for del2Draft.rds
+#link2=""
+link2="C:/Users/patri/OneDrive/Desktop/DACSS/DACSS690V/Week_2_HW/carb_plot.rds"
+readRDS(link2)
+```
+
+## Row {data-height="500"}
+
+### **Only 5-gear cars utilize the 6 and 8 carburator setups.**
+
+```{r}
+## for del3Draft.rds
+#link3=""
+link3="C:/Users/patri/OneDrive/Desktop/DACSS/DACSS690V/Week_2_HW/cyl_dist_plot.rds"
+readRDS(link3)
+```
+
+
