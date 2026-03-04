@@ -13,8 +13,6 @@ library(flexdashboard) # always
 
 Author: Patrick McGrath<br>DACSS690V Spring 2026
 
-### References
-<div id="refs"></div>
 
 ## Row {data-height="500"}
 
